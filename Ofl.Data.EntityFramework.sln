@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59FFF49B-A127-4878-B4D5-AFE65D66E676}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{755E7607-28E8-4237-8F22-BC09EA2AF7C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Data.EntityFramework", "src\Ofl.Data.EntityFramework\Ofl.Data.EntityFramework.csproj", "{062DA0EA-465B-4C74-A245-03EEC35B2BD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Data.EntityFramework.Tests", "test\Ofl.Data.EntityFramework.Tests\Ofl.Data.EntityFramework.Tests.csproj", "{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{D5DFFE3D-5635-4696-BBE2-68D5F6BF0CFE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Data.EntityFramework.sln.DotSettings = Ofl.Data.EntityFramework.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Debug|x64.Build.0 = Debug|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Debug|x86.Build.0 = Debug|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Release|x64.ActiveCfg = Release|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Release|x64.Build.0 = Release|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Release|x86.ActiveCfg = Release|Any CPU
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4}.Release|x86.Build.0 = Release|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Debug|x64.Build.0 = Debug|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Debug|x86.Build.0 = Debug|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Release|x64.ActiveCfg = Release|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Release|x64.Build.0 = Release|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Release|x86.ActiveCfg = Release|Any CPU
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{062DA0EA-465B-4C74-A245-03EEC35B2BD4} = {59FFF49B-A127-4878-B4D5-AFE65D66E676}
+		{D982B55D-9B7B-42AE-9F45-3BFC1CE4EEC7} = {755E7607-28E8-4237-8F22-BC09EA2AF7C3}
+	EndGlobalSection
+EndGlobal
